@@ -1,0 +1,45 @@
+remote_theme:  pmarsceill/just-the-docs@v0.3.3
+
+title: WiFi Pineapple Mark 7 Developer Docs
+description: Developer Documentation for the Hak5 WiFi Pineapple Mark 7
+baseurl: "/mk7-docs"
+url: "https://hak5.github.io"
+
+permalink: pretty
+exclude: ["vendor", ".gem", "Gemfile"]
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_seperator: /[\s/\+/
+  rel_url: true
+  button: false
+
+heading_achors: true
+
+aux_links:
+  "View on GitHub":
+    - "//github.com/hak5/mk7-docs"
+aux_links_new_tab: true
+
+nav_sort: case_sensitive
+
+back_to_top: true
+back_to_top_text: "Back to Top"
+
+footer_content: "Hak5"
+
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+gh_edit_link: true
+gh_edit_link_text: "Edit on GitHub"
+gh_edit_repository: "https://github.com/hak5/mk7-docs"
+gh_edit_branch: "gh-pages"
+gh_edit_view_mode: "edit"
+
+color_scheme: "light"
+

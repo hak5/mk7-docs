@@ -1,0 +1,73 @@
+.endpoint-collapsible, .endpoint-collapsible-non-click {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eceff6;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.api-name {
+    color: #7556ed;
+}
+.api-rest-label {
+    padding: 3px 3px 3px 3px;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+.api-rest-label-get {
+    background-color: #52ce0e;
+}
+.api-rest-label-post {
+    background-color: #119bdf;
+}
+.api-rest-label-put {
+    background-color: #e08f10;
+}
+.api-rest-label-delete {
+    background-color: #e02a10;
+}
+
+.api-label-post {
+    color: #119bdf;
+}
+.api-label-get {
+    color: #52ce0e;
+}
+.api-label-put {
+    color: #e08f10;
+}
+.api-label-delete {
+    color: #e02a10;
+}
+
+.endpoint-panel, .collapsible:hover {
+  background-color: #d3cde4;
+}
+
+.endpoint-content {
+  margin-top: -16px;
+  padding: 14px 18px 14px 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f5f6fa;
+}
+
+.endpoint-content-always-show {
+  padding: 14px 18px 14px 18px;
+  overflow: hidden;
+  background-color: #f5f6fa;
+}
+
+.code-block div {
+    background-color: #e2e2e2;
+}
+
+.code-block * {
+    background-color: #e2e2e2;
+}
