@@ -302,5 +302,5 @@ this.API.APIDownload('/tmp/log.txt', 'log-output');
 </div>
 </div>
 
-<script src="https://foxtrot.github.io/documentation/assets/js/endpoints.js"></script>
+<script src="https://hak5.github.io/mk7-docs/assets/js/endpoints.js"></script>
 <script>addHandlers();</script>

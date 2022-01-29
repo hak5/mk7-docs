@@ -168,5 +168,5 @@ Generic actions such as shutdown, reboot, and getting the device status.
 </div>
 
 
-<script src="https://foxtrot.github.io/documentation/assets/js/endpoints.js"></script>
+<script src="https://hak5.github.io/mk7-docs/assets/js/endpoints.js"></script>
 <script>addHandlers();</script>

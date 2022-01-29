@@ -249,5 +249,5 @@ Modules are third-party extensions for the WiFi Pineapple.
 </div>
 
 
-<script src="https://foxtrot.github.io/documentation/assets/js/endpoints.js"></script>
+<script src="https://hak5.github.io/mk7-docs/assets/js/endpoints.js"></script>
 <script>addHandlers();</script>
