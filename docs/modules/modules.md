@@ -155,7 +155,7 @@ This boiler-plate code can be easily adapted to make an API request and display 
   6   │             Request to API 
   7   │         </button> 
   8   │         <br/> 
-  9   │         <span>The version is: {{ apiResponse }}</span> 
+  9   │         <span>The version is: {% raw %}{{ apiResponse }}{% endraw %}</span> 
  10   │         <br/> 
  11   │     </mat-card-content> 
  12   │ </mat-card>
@@ -235,7 +235,7 @@ We can now update our UI to use our own back-end function.
   7   │             Request to Module 
   8   │         </button> 
   9   │         <br/> 
- 10   │         <span>The API response was: {{ apiResponse }}</span> 
+ 10   │         <span>The API response was: {% raw %}{{ apiResponse }}{% endraw %}</span> 
  11   │         <br/> 
  12   │     </mat-card-content> 
  13   │ </mat-card>
@@ -296,7 +296,7 @@ The last step is getting data sent from your module's front-end to your module's
  12   │         </button> 
  13   │         <br/> 
  14   │          
- 15   │         <span>The API response was: {{ apiResponse }}</span> 
+ 15   │         <span>The API response was: {% raw %}{{ apiResponse }}{% endraw %}</span> 
  16   │         <br/> 
  17   │     </mat-card-content> 
  18   │ </mat-card>
